@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playpen Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #ffccf2; /* Pastel rosa */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff66a3; /* Rosa pastel fuerte */
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ff66a3; /* Cambia el color al pasar el ratón */
+}
+
+section {
+    background-color: #e6f7ff; /* Azul pastel suave */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6699cc; /* Azul pastel */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+strong {
+    color: #ff66a3; /* Rosa pastel fuerte */
+}
+
+figure {
+    margin: 20px;
+}
+
+figure img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid #ffccf2; /* Marco rosa */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #999;
+}
+
+footer {
+    background-color: #ffe6e6; /* Pastel rosa claro */
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    color: #ff66a3;
+    font-size: 1rem;
+}
